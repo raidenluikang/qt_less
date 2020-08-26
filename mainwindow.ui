@@ -32,6 +32,9 @@
          <pointsize>14</pointsize>
         </font>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
     </layout>
@@ -92,7 +95,7 @@
   <action name="actionNew">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/new-file.ico</normaloff>:/images/new-file.ico</iconset>
+     <normaloff>:/images/icons/new-file.ico</normaloff>:/images/icons/new-file.ico</iconset>
    </property>
    <property name="text">
     <string>New</string>
@@ -104,7 +107,7 @@
   <action name="actionOpen">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/open-file.ico</normaloff>:/images/open-file.ico</iconset>
+     <normaloff>:/images/icons/open-file.ico</normaloff>:/images/icons/open-file.ico</iconset>
    </property>
    <property name="text">
     <string>Open</string>
@@ -116,7 +119,7 @@
   <action name="actionSave_as">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/save_as.ico</normaloff>:/images/save_as.ico</iconset>
+     <normaloff>:/images/icons/save_as.ico</normaloff>:/images/icons/save_as.ico</iconset>
    </property>
    <property name="text">
     <string>Save as</string>
@@ -128,7 +131,7 @@
   <action name="actionPrint">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/printer.ico</normaloff>:/images/printer.ico</iconset>
+     <normaloff>:/images/icons/printer.ico</normaloff>:/images/icons/printer.ico</iconset>
    </property>
    <property name="text">
     <string>Print</string>
@@ -140,7 +143,7 @@
   <action name="actionExit">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/close.ico</normaloff>:/images/close.ico</iconset>
+     <normaloff>:/images/icons/close.ico</normaloff>:/images/icons/close.ico</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -152,7 +155,7 @@
   <action name="actionCopy">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/copy.ico</normaloff>:/images/copy.ico</iconset>
+     <normaloff>:/images/icons/copy.ico</normaloff>:/images/icons/copy.ico</iconset>
    </property>
    <property name="text">
     <string>Copy</string>
@@ -164,7 +167,7 @@
   <action name="actionPaste">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/paste.ico</normaloff>:/images/paste.ico</iconset>
+     <normaloff>:/images/icons/paste.ico</normaloff>:/images/icons/paste.ico</iconset>
    </property>
    <property name="text">
     <string>Paste</string>
@@ -176,7 +179,7 @@
   <action name="actionCut">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/cut.ico</normaloff>:/images/cut.ico</iconset>
+     <normaloff>:/images/icons/cut.ico</normaloff>:/images/icons/cut.ico</iconset>
    </property>
    <property name="text">
     <string>Cut</string>
@@ -188,7 +191,7 @@
   <action name="actionUndo">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/undo.ico</normaloff>:/images/undo.ico</iconset>
+     <normaloff>:/images/icons/undo.ico</normaloff>:/images/icons/undo.ico</iconset>
    </property>
    <property name="text">
     <string>Undo</string>
@@ -200,7 +203,7 @@
   <action name="actionRedo">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/images/redo.ico</normaloff>:/images/redo.ico</iconset>
+     <normaloff>:/images/icons/redo.ico</normaloff>:/images/icons/redo.ico</iconset>
    </property>
    <property name="text">
     <string>Redo</string>

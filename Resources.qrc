@@ -1,15 +1,16 @@
 <RCC>
     <qresource prefix="/images">
-        <file>cut.ico</file>
-        <file>edit.ico</file>
-        <file>undo.ico</file>
-        <file>copy.ico</file>
-        <file>paste.ico</file>
-        <file>redo.ico</file>
-        <file>save_as.ico</file>
-        <file>close.ico</file>
-        <file>open-file.ico</file>
-        <file>new-file.ico</file>
-        <file>printer.ico</file>
+        <file>icons/close.ico</file>
+        <file>icons/copy.ico</file>
+        <file>icons/cut.ico</file>
+        <file>icons/edit.ico</file>
+        <file>icons/new-file.ico</file>
+        <file>icons/open-file.ico</file>
+        <file>icons/paste.ico</file>
+        <file>icons/printer.ico</file>
+        <file>icons/redo.ico</file>
+        <file>icons/save_as.ico</file>
+        <file>icons/sum.ico</file>
+        <file>icons/undo.ico</file>
     </qresource>
 </RCC>

@@ -35,7 +35,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 # icon file
-win32:RC_ICONS += sum.ico
+win32:RC_ICONS += icons/sum.ico
 
 RESOURCES += \
     Resources.qrc
