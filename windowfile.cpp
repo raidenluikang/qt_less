@@ -3,17 +3,6 @@
 #include <exception>
 #include <stdexcept>
 
-int maxLines;
-int maxLineLength;
-QString filename;
-QFile file;
-QTextStream in;
-
-std::vector<QString> lines;
-qsizetype totalLines;
-qsizetype currentPosition;
-
-
 TWindowFile::TWindowFile(QString filename)
     : maxLines(DEFAULT_MAX_LINES)
     , maxLineLength(DEFAULT_MAX_LINE_LENGTH)
